@@ -20,10 +20,6 @@
     "url": "https://github.com/Wellers0n/cron-job/issues"
   },
   "dependencies": {
-    "@sentry/node": "6.12.0",
-    "@sentry/tracing": "6.12.0",
-    "axios": "0.21.2",
-    "coralogix-logger": "1.1.28",
     "cors": "2.8.5",
     "cron": "1.8.2",
     "crypto": "1.0.1",
