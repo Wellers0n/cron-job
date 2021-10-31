@@ -1,6 +1,6 @@
 import cronJobShouldStart from '../cronJobShouldStart'
 
-describe('[refreshMonitoringDashboard - cronJobShouldStart] Test case', () => {
+describe('cronJobShouldStart Test case', () => {
   it('Should be an instance of a function', () => {
     expect(cronJobShouldStart).toBeInstanceOf(Function)
   })

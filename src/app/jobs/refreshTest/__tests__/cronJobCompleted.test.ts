@@ -1,6 +1,6 @@
 import cronJobCompleted from '../cronJobCompleted'
 
-describe('[refreshMonitoringDashboard - cronJobCompleted] Test case', () => {
+describe('cronJobCompleted Test case', () => {
   it('Should be an instance of a function', () => {
     expect(cronJobCompleted).toBeInstanceOf(Function)
   })

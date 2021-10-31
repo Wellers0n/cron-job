@@ -1,6 +1,6 @@
 import getTimeZone from '../getTimeZone'
 
-describe('[refreshMonitoringDashboard - getTimeZone] Test case', () => {
+describe('getTimeZone Test case', () => {
   it('Should be an instance of a function', () => {
     expect(getTimeZone).toBeInstanceOf(Function)
   })

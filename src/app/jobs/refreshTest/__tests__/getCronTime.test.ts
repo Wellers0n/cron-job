@@ -1,6 +1,6 @@
 import getCronTime from '../getCronTime'
 
-describe('[refreshMonitoringDashboard - getCronTime] Test case', () => {
+describe('getCronTime Test case', () => {
   it('Should be an instance of a function', () => {
     expect(getCronTime).toBeInstanceOf(Function)
   })

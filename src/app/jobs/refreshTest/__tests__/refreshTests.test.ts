@@ -9,7 +9,7 @@ import getTimeZone from '../getTimeZone'
 
 jest.mock('cron')
 
-describe('[refreshMonitoringDashboard] - test case', () => {
+describe('refreshTests - test case', () => {
   it('Should be an instance of a function', () => {
     expect(getJob).toBeInstanceOf(Function)
   })
