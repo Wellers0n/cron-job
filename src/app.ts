@@ -11,7 +11,7 @@ import jobs from './app/jobs'
 
 import { keys } from './configs/keys'
 
-const port = keys.port || 5005
+const port = keys.port || 3001
 
 const app = express()
 
