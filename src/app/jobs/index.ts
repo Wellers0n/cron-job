@@ -1,5 +1,5 @@
-import { refreshTests } from './refreshTest'
+import { clock } from './clock'
 
 export default {
-  refreshTests
+  clock
 }

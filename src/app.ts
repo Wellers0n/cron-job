@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(routes)
 
 // Jobs
-jobs.refreshTests()
+jobs.clock()
 
 app.listen(port, () => {
   console.log(`We are live on ${port}`)

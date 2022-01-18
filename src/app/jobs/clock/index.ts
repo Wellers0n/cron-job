@@ -7,7 +7,7 @@ import cronJobCompleted from './cronJobCompleted'
 import cronJobShouldStart from './cronJobShouldStart'
 import getTimeZone from './getTimeZone'
 
-function refreshTests(): void {
+function clock(): void {
   const job = new CronJob(
     getCronTime(),
     getJob,
@@ -20,8 +20,9 @@ function refreshTests(): void {
   const appStartedAt = moment().format('DD/MM/YYYY HH:mm:ss')
 
   const loggerPrefix = '[CRON JOB] refreshTests job'
+  
   console.log(`${loggerPrefix} next date: ${nextDate}`)
   console.log(`${loggerPrefix} started at: ${appStartedAt}`)
 }
 
-export { refreshTests }
+export { clock }
