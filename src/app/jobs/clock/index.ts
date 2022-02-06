@@ -19,7 +19,7 @@ function clock(): void {
   const nextDate = job.nextDate().format('DD/MM/YYYY HH:mm:ss')
   const appStartedAt = moment().format('DD/MM/YYYY HH:mm:ss')
 
-  const loggerPrefix = '[CRON JOB] refreshTests job'
+  const loggerPrefix = '[CRON JOB] clock job'
   
   console.log(`${loggerPrefix} next date: ${nextDate}`)
   console.log(`${loggerPrefix} started at: ${appStartedAt}`)
