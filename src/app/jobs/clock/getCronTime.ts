@@ -1,5 +1,5 @@
 function getCronTime(): string {
-  return '* * * * *'
+  return '0 7 * * *'
 }
 
 export default getCronTime
