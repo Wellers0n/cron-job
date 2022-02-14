@@ -1,5 +1,5 @@
 const getJob = (): void => {
-  console.log('DESPERTADOR TOCANDO!!!')
+  console.log('ALARM CLOCK RINGING!!!')
 }
 
 export { getJob }
