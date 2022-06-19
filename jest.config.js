@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'ms-partners-workers',
+  name: 'cron-job',
   coverageThreshold: {
     global: {
       branches: 0,
